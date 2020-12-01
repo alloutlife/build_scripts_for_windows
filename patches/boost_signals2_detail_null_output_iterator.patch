@@ -1,0 +1,11 @@
+--- ./boost_1_74_0/boost/signals2/detail/null_output_iterator.hpp	2020-11-20 21:05:45.535047168 +0300
++++ ./boost_1_74_0/boost/signals2/detail/null_output_iterator.hpp	2020-11-20 21:05:07.535314129 +0300
+@@ -11,7 +11,7 @@
+ #ifndef BOOST_SIGNALS2_NULL_OUTPUT_ITERATOR_HPP
+ #define BOOST_SIGNALS2_NULL_OUTPUT_ITERATOR_HPP
+ 
+-#include <boost/function_output_iterator.hpp>
++#include <boost/iterator/function_output_iterator.hpp>
+ 
+ namespace boost
+ {
