@@ -1,5 +1,7 @@
 # Compiling 3rd party libraries for further use in MS Visual Studio 2017 #
 
+Although `vcpkg` solves the problem..
+
 Some of the scripts are written in bash, so you need a linux-based bash processor (I prefer Debian) available for MS Windows 10 (https://itsfoss.com/install-bash-on-windows/)
 There are also some patches for boost 1.74 included in the repo.
 
@@ -20,4 +22,3 @@ There is also a recommendation of how to introduce additional include and lib di
 1. OpenSSL 1.1.1h for vs141
 1. Boost 1.74.0 for vs141
 1. Boost 1.74.0 for vs120
-
